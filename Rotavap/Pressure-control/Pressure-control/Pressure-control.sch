@@ -348,19 +348,6 @@ Wire Wire Line
 	8150 2250 8150 2850
 Wire Wire Line
 	8150 2850 8000 2850
-$Comp
-L Relay:DIPxx-1Cxx-51x K1
-U 1 1 5EAC1216
-P 9250 3050
-F 0 "K1" V 8683 3050 50  0000 C CNN
-F 1 "833H-1C-C 12V DC" V 8774 3050 50  0000 C CNN
-F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 9700 3000 50  0001 L CNN
-F 3 "https://www.mouser.cn/datasheet/2/378/20119191320287145-4912.pdf" H 9250 3050 50  0001 C CNN
-	1    9250 3050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8950 2850 8550 2850
 Connection ~ 8150 2850
 $Comp
 L Diode:1N4007 D1
@@ -442,34 +429,9 @@ F 3 "" H 10500 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 2850 10000 2850
-Wire Wire Line
-	10000 2850 10000 3950
-Wire Wire Line
-	10000 3950 8650 3950
-Wire Wire Line
 	8650 3950 8550 3950
 Wire Wire Line
 	8550 3950 8550 3250
-Connection ~ 8650 3950
-Wire Wire Line
-	8950 3250 8950 3650
-Wire Wire Line
-	8950 3650 10550 3650
-Wire Wire Line
-	10550 3650 10550 3400
-Wire Wire Line
-	10550 2900 10550 2600
-Wire Wire Line
-	10550 2600 10500 2600
-Wire Wire Line
-	10500 2600 10500 2200
-Wire Wire Line
-	9550 3350 9800 3350
-Wire Wire Line
-	9800 3350 9800 2500
-Wire Wire Line
-	9800 2500 10000 2500
 Wire Wire Line
 	10000 2500 10000 2200
 Wire Wire Line
@@ -481,4 +443,44 @@ Wire Wire Line
 Wire Wire Line
 	6750 4400 5700 4400
 Connection ~ 5700 4400
+$Comp
+L SamacSys_Parts:833H-1C-C-12VDC K?
+U 1 1 5EAB775F
+P 9400 4150
+F 0 "K?" V 10096 3822 50  0000 R CNN
+F 1 "833H-1C-C-12VDC" V 10005 3822 50  0000 R CNN
+F 2 "833H1CC12VDC" H 10550 4250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/833H-1C-C-12VDC.pdf" H 10550 4150 50  0001 L CNN
+F 4 "General Purpose Relays 12Vdc 10A Sugar Cube" H 10550 4050 50  0001 L CNN "Description"
+F 5 "15" H 10550 3950 50  0001 L CNN "Height"
+F 6 "Song Chuan" H 10550 3850 50  0001 L CNN "Manufacturer_Name"
+F 7 "833H-1C-C-12VDC" H 10550 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "893-833H-1C-C-12VDC" H 10550 3650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Song-Chuan/833H-1C-C-12VDC?qs=X4N6sOTYzkgmOWwYJwJPXg%3D%3D" H 10550 3550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10550 3450 50  0001 L CNN "RS Part Number"
+F 11 "" H 10550 3350 50  0001 L CNN "RS Price/Stock"
+	1    9400 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2850 9400 2850
+Wire Wire Line
+	9400 4150 9050 4150
+Wire Wire Line
+	9050 4150 9050 3950
+Wire Wire Line
+	9050 3950 8650 3950
+Connection ~ 8650 3950
+Wire Wire Line
+	9500 2850 9500 2500
+Wire Wire Line
+	9500 2500 10000 2500
+Wire Wire Line
+	9600 4150 10550 4150
+Wire Wire Line
+	10550 3400 10550 4150
+Wire Wire Line
+	10550 2900 10500 2900
+Wire Wire Line
+	10500 2900 10500 2200
 $EndSCHEMATC
