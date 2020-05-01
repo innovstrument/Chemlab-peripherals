@@ -20,7 +20,7 @@ https://detail.1688.com/offer/569216387529.html?spm=a26352.13672862.offerlist.26
 
 量程：-100 kPa to 0 kPa （真空压力）
 
-
+电压：5V - 0V
 
 ·Sensor: RS485
 
