@@ -11,14 +11,10 @@ void loop() {
   GaugeValue = analogRead (GaugePin);  //Ardunio Uno配有6路模拟输入，分别标记为A0到A5。每路输入提供10位分辨率（即2^10，1024位不同的值）。虽然可以通过AREF引脚和模拟参考()功能来改变模拟输入的上限值，但其默认输入值范围为0-5V。
   float voltage = GaugeValue * (5.0 / 1023.0); //显示电压
   Serial.println(voltage); //显示电压
-  if (GaugeValue <= (5.0 * 0.8) ) //如果读取电压数值低于0.8倍大气压
-  {
-    digitalWrite(MotorPin,LOW)  //给电机控制写低电平，关断继电器
+  if (voltage >= 4) {      //如果读取的值高于0.8倍大气压
+    digitalWrite(MotorPin, HIGH);     //对电机控制组件输出高电平，电机通电。
   }
-  else
-  {
-    digitalWrite(MotorPin,HIGH) /* code */
+  else{
+    digitalWrite (MotorPin, LOW);
   }
-  
 }
-
