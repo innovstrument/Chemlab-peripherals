@@ -29,7 +29,7 @@ https://detail.1688.com/offer/569216387529.html?spm=a26352.13672862.offerlist.26
 
 输出：
 
-·泵：12V/24V/AC via Relay
+·泵：12V
 
 ·限制条件（继电器）：
 
