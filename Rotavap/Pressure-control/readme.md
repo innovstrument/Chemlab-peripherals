@@ -4,11 +4,11 @@
 
 ·Arduino Uno + 控制模块 （现在的方案）
 
-控制模块的绘制使用了KiCAD作为EDA，之后会提供PDF文件。
+控制模块的绘制使用了KiCAD作为EDA，提供PDF文件。
 
 ##
 
-输入要求：
+### 输入要求：
 
 ·真空压力计：电压型输出
 
@@ -24,7 +24,7 @@ https://detail.1688.com/offer/569216387529.html?spm=a26352.13672862.offerlist.26
 
 
 
-输出：
+### 输出：
 
 ·泵：12V
 
@@ -32,9 +32,7 @@ https://detail.1688.com/offer/569216387529.html?spm=a26352.13672862.offerlist.26
 
 ·继电器
 
-松川 833H: 15A@125V AC 10A@277V AC  (i) (ii) 
-
-
+松川 833H: 15A@125V AC 10A@277V AC  (i) 
 
 
 
