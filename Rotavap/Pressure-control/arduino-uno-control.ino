@@ -15,5 +15,10 @@ void loop() {
   {
     digitalWrite(MotorPin,LOW)  //给电机控制写低电平，关断继电器
   }
+  else
+  {
+    digitalWrite(MotorPin,HIGH) /* code */
+  }
+  
 }
 
