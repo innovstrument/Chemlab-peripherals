@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Pressure-control-rescue)(type Legacy)(uri ${KIPRJMOD}/Pressure-control-rescue.lib)(options "")(descr ""))
+)
