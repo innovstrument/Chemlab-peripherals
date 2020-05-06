@@ -6,7 +6,7 @@ Automation Peripherals 自动化外设
 
 本repo基于GPL 3.0 许可分发。
 
-## 恒压蒸馏控制
+## 旋蒸仪和附属设备
 
 ### 简介
 
