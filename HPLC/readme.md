@@ -51,7 +51,7 @@
 
 ### 致谢作者
 
-<1> 苏灵@知乎 https://www.zhihu.com/people/su-ling-8
+<i> 苏灵@知乎 https://www.zhihu.com/people/su-ling-8
 
-<2> 
+<ii> 
 
