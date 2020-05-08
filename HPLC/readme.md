@@ -20,9 +20,27 @@
 
 #### 部件部分
 
-·泵：使用微型齿轮泵。<2>
+1. 泵：使用微型齿轮泵。<2>
 
-·
+2. 检测器：
+
+Light Source:
+
+Lamp:
+
+LED: (Preferred) Models are:
+
+Ouplent LST1-01G07-UV01-01 (https://www.mouser.com/datasheet/2/810/Opulent_StarBoard-Luminus-UVC-Family_DataSheet-1669857.pdf) 
+
+Mouser:$3.5@1pc
+
+Lumex SML-LX3636VDC-TR (https://www.mouser.com/catalog/specsheets/Lumex-03-27-2020-SML-LX3636VDC-TR.pdf)
+
+Mouser: $12.86@1pc, $6.79@2000pcs
+
+Lumex SML-LX3636VSC-TR (https://www.mouser.com/catalog/specsheets/Lumex-03-27-2020-SML-LX3636VSC-TR.pdf)
+
+Mouser: 14.03@1pc, 7.41@2000pcs
 
 ·
 
