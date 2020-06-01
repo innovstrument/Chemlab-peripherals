@@ -4,12 +4,12 @@ The purpose of the interface card(s) is convert internal PCI Express bus to exte
 
 Planned interface cards include but not limited to:
 
-Internal to External interfaces:
+## Root interface cards:
 
 1. PCI Express 4x to SFF-8644 (1 channel)
 
 2. 
 
-External testing platform:
+## Endpoint interface cards:
 
 1. SFF-8644
